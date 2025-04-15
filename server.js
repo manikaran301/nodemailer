@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 const transporter = nodemailer.createTransport({
-  service: "Godaddy",
+  service: "",
   auth: {
     user: "",
     pass: ""
