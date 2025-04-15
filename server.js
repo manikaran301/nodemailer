@@ -10,8 +10,8 @@ app.use(express.json());
 const transporter = nodemailer.createTransport({
   service: "Godaddy",
   auth: {
-    user: "contactus@dayaheadinc.com",
-    pass: "WelC0me.@CUs+"
+    user: "",
+    pass: ""
   }
 });
 
