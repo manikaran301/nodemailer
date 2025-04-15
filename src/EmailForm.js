@@ -18,7 +18,7 @@ export default function EmailForm() {
 
     try {
       await axios.post("http://localhost:3000/api/send", {
-        from: "fitnessatd21@gmail.com",
+        from,
         to,
         subject,
         message
